@@ -9,7 +9,7 @@ pipeline {
         stage('clone') {
             steps {
                 script{
-                    git clone  https://github.com/jglick/simple-maven-project-with-tests.git
+                    "git clone  https://github.com/jglick/simple-maven-project-with-tests.git"
                 }
                 
             }
