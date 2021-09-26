@@ -9,7 +9,7 @@ pipeline {
         stage('clone') {
             steps {
                 
-                sh "git 'https://github.com/jglick/simple-maven-project-with-tests.git"
+                sh "git https://github.com/jglick/simple-maven-project-with-tests.git"
                 
             }
         }
@@ -31,4 +31,5 @@ pipeline {
         }
    }
 }
+
 
